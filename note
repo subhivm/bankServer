@@ -1,0 +1,50 @@
+                 node js :  server side technology
+              ......................................
+
+
+                        Basic Comments
+                  ..........................
+            1.to create package.json=>npm init
+            2.to install express=>npm i express
+            3.install nodemon=>npm i -g nodemon
+            4.to run the server=>node/nodemon index.js
+            5.install JWT token=>npm i jsonwebtoken
+            6.install mongoose=>npm install mongoose
+            7.install cors=>npm i cors
+
+
+
+                        Basic Concepts
+                    ............................
+            1.create a folder  
+            2.create package.json
+            3.create index.js file
+            4.install express 
+            5.import expres to index.js  
+            6.create app using expres   
+            7.define port no for server app  
+            8.install nodemon
+            9.middleware
+              9.1 application specific middleware
+              9.2 Router specific middleware
+            10.JWT token
+              10.1 token generation=>sign()
+              10.2 token verify=>verify()
+
+            11.connection b/w mongoDB and server
+               11.1 install mongoose
+               11.2 provide connection string using mongoose
+               11.3 create model
+               11.4 export model
+            12.solving Asynchronous events
+               12.1  promise
+                 12.1.1 resolved state :then()
+                 12.1.2 reject state : catch( )
+            13. Cors :cross origin resourse sharing protocol
+               13.1 install cors
+               13.2 import cors to index.js
+
+
+
+           * only one request has o/p on browser ie,GET request
+           * To see all other req are working use thunder client(test wether req are work properly)
